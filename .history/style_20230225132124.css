@@ -28,20 +28,12 @@ h1 {
 
 .btn {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     left: 50%;
     top: 40%;
     transform: translateX(-50%);
     text-decoration: none;
     color: white;
-    border: white solie 0.2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: 15rem;
-    padding: 1.5rem;
+    border: white solie 0.2 rem;
 }
 
 .container {
