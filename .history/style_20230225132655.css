@@ -5,8 +5,6 @@
     --right-bg-color: rgba(43, 43, 43, 0.8);
     --left-btn-hover-color: rgba(87, 84, 236, 1);
     --right-btn-hover-color: rgba(28, 122, 28, 1);
-    --hover-width: 75%;
-    --other-width: 25%;
 }
 
 * {
@@ -53,11 +51,6 @@ h1 {
     border-color: var(--left-btn-hover-color);
 }
 
-.split.right .btn:hover {
-    background-color: var(--right-btn-hover-color);
-    border-color: var(--right-btn-hover-color);
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -100,20 +93,4 @@ h1 {
     background: url('');
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.hover-left .left {
-    width: var(--hover-width);
-}
-
-.hover-right .right {
-    width: var(--hover-width);
-}
-
-.hover-right .right {
-    width: var(--hover-width);
-}
-
-.hover-right .left {
-    width: var(--other-width);
 }
